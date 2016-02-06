@@ -85,41 +85,28 @@
    /*
    *  MISC
    */
-   .clear-well {
-     min-height: 20px;
-     padding: 19px;
-     margin-bottom: 20px;
-     border-radius: 4px;
-   }
-   .clear-well-sm {
-     padding: 9px;
-     border-radius: 3px;
-   }
-   .boxed {
-     min-height: 20px;
-     padding: 19px;
-     padding-left: 19px;
-     margin-bottom: 20px;
-     border-radius: 4px;
-   }
-   .inner-boxed {
-     padding-top: 19px;
-     padding-left: 50px;
-     margin-left: 20px;
-     margin-right: 10px;
-     border-radius: 4px;
-   }
-   .icon-boxed {
-     padding-top:: 30px;
-     padding-left: 30px;
-   }
+
    .grid_3 {
    	width: 270px;
+   }
+   .preffix_1 {
+    margin-left: 130px;
    }
    .wrapper {
   	position: relative;
   	overflow: hidden;
   	width: 100%;
+  }
+  .pad1 {
+	  padding-bottom: 37px;
+  }
+  .container {
+  	margin-right: auto;
+  	margin-left: auto;
+  	box-sizing: border-box;
+  }
+  .container {
+  	width: 1170px;
   }
   .icon1 {
   	margin-top: 36px;
@@ -129,6 +116,18 @@
   	height: 74px;
   	text-align: center;
   	border-radius: 500px;
-  	font-size: 36px;
+  	font-size: 48px;
   	line-height: 74px;
   }
+  .box {
+  	overflow: hidden;
+  }
+  h3 {
+	margin-top: 34px;
+	text-transform: uppercase;
+}
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
