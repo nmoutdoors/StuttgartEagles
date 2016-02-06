@@ -75,3 +75,24 @@
    h2, h3, h4, h5, h6 {
      color: #CC3E12;
    }
+
+   /*
+   *  MISC
+   */
+   .clear-well {
+     min-height: 20px;
+     padding: 19px;
+     margin-bottom: 20px;
+     border-radius: 4px;
+   }
+   .clear-well-sm {
+     padding: 9px;
+     border-radius: 3px;
+   }
+   .boxed {
+     min-height: 20px;
+     padding: 19px;
+     padding-left: 135px;
+     margin-bottom: 20px;
+     border-radius: 4px;
+   }
