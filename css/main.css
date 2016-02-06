@@ -74,7 +74,13 @@
    }
    h2, h3, h4, h5, h6 {
      color: #CC3E12;
+     overflow:hidden;
    }
+
+   /*
+   *  Resize Response
+   */
+
 
    /*
    *  MISC
@@ -92,7 +98,37 @@
    .boxed {
      min-height: 20px;
      padding: 19px;
-     padding-left: 135px;
+     padding-left: 19px;
      margin-bottom: 20px;
      border-radius: 4px;
    }
+   .inner-boxed {
+     padding-top: 19px;
+     padding-left: 50px;
+     margin-left: 20px;
+     margin-right: 10px;
+     border-radius: 4px;
+   }
+   .icon-boxed {
+     padding-top:: 30px;
+     padding-left: 30px;
+   }
+   .grid_3 {
+   	width: 270px;
+   }
+   .wrapper {
+  	position: relative;
+  	overflow: hidden;
+  	width: 100%;
+  }
+  .icon1 {
+  	margin-top: 36px;
+  	float: left;
+  	margin-right: 25px;
+  	width: 74px;
+  	height: 74px;
+  	text-align: center;
+  	border-radius: 500px;
+  	font-size: 36px;
+  	line-height: 74px;
+  }
