@@ -62,6 +62,9 @@
    */
    .jumbotron {background-color:inherit;}
    .container-full-bg {width:100%;height:75%;max-width:100%;background-position:center;background-size:cover;}
+   .container-half-bg {width:100%;height:50%;max-width:100%;background-position:center;background-size:cover;}
+   .container-third-bg {width:100%;height:33%;max-width:100%;background-position:center;background-size:cover;}
+   .container-quarter-bg {width:100%;height:25%;max-width:100%;background-position:center;background-size:cover;}
    .container-full-bg .container, .container-full-bg .container .jumbotron {height:100%;width:100%;}
    #logo {
      margin-top: 200px;
@@ -70,7 +73,8 @@
    *  HEADERS
    */
    h1, h2, h3, h4, h5, h6 {
-     font-family: 'Pacifico', cursive;
+     /*font-family: 'Pacifico', cursive;*/
+     font-family: 'Oxygen', sans-serif;
    }
    h2, h3, h4, h5, h6 {
      color: #CC3E12;
