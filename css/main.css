@@ -84,8 +84,8 @@
    /*
    *  Modal Dialog
    */
-   .modal-content {
-     background-color: black;
+   .modal-body {
+     background-color: #808080;
    }
 
    /*

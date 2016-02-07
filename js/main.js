@@ -2,8 +2,18 @@ $(document).ready(function() {
 
   $(".img-thumbnail").click(function(){
     $("#imagepreview").attr("src",$(this).attr("src").replace("-min", ""))
+    $('.modal-body',this).css({width:'auto',height:'auto', 'max-height':'100%'});
     $("#imgViewer").modal("show");
   });
+  $(".imagepreview").click(function(){
+    $("#imgViewer").modal("hide");
+  });
+
+  $('#modal').on('show', function () {
+        $('.modal-body',this).css({width:'auto',height:'auto', 'max-height':'100%'});
+  });
+
+
   $("#slideShow").css("word-wrap","break-word");
   $('.slideShow').slick({
     dots: true,
