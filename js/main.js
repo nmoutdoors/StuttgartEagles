@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+  $(".img-thumbnail").click(function(){
+    $("#imagepreview").attr("src",$(this).attr("src").replace("-min", ""))
+    $('.modal-body',this).css({width:'auto',height:'auto', 'max-height':'100%'});
+    $("#imgViewer").modal("show");
+  });
+  $(".imagepreview").click(function(){
+    $("#imgViewer").modal("hide");
+  });
+
+  $('#modal').on('show', function () {
+        $('.modal-body',this).css({width:'auto',height:'auto', 'max-height':'100%'});
+  });
+
+
   $("#slideShow").css("word-wrap","break-word");
   $('.slideShow').slick({
     dots: true,
@@ -54,7 +68,7 @@ $("#box12").addClass("animated fadeInLeft");
 $("#box12-title").text("SEBC Tryout Page 2016");
 $("#box12-body").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum magna venenatis purus porta, sed laoreet enim ullamcorper.");
 
-$("#box22").addClass("animated fadeInDown");
+$("#box22").addClass("animated fadeInUp");
 $("#box22-title").text("Teams");
 $("#box22-body").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum magna venenatis purus porta, sed laoreet enim ullamcorper.");
 
