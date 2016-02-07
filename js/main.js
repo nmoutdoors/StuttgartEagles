@@ -68,7 +68,7 @@ $("#box12").addClass("animated fadeInLeft");
 $("#box12-title").text("SEBC Tryout Page 2016");
 $("#box12-body").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum magna venenatis purus porta, sed laoreet enim ullamcorper.");
 
-$("#box22").addClass("animated fadeInDown");
+$("#box22").addClass("animated fadeInUp");
 $("#box22-title").text("Teams");
 $("#box22-body").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum magna venenatis purus porta, sed laoreet enim ullamcorper.");
 
