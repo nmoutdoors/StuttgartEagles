@@ -1,5 +1,41 @@
 $(document).ready(function() {
 
+  $("#slideShow").css("word-wrap","break-word");
+  $('.slideShow').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
 $("i").addClass("animated bounce");
 $("#box1").addClass("animated fadeInLeft");
 $("#box1-title").text("Easter Euro Cup");
@@ -25,5 +61,7 @@ $("#box22-body").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 $("#box32").addClass("animated fadeInRight");
 $("#box32-title").text("Speyer Tournament");
 $("#box32-body").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum magna venenatis purus porta, sed laoreet enim ullamcorper.");
+
+
 
 });

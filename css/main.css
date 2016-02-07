@@ -85,6 +85,10 @@
    /*
    *  MISC
    */
+   .slideShow {
+     padding: 20px;
+     margin: 50px;
+   }
 
    .grid_3 {
    	width: 270px;
