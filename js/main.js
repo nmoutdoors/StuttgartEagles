@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $(".img-thumbnail").click(function(){
+    $("#imagepreview").attr("src",$(this).attr("src").replace("-min", ""))
+    $("#imgViewer").modal("show");
+  });
   $("#slideShow").css("word-wrap","break-word");
   $('.slideShow').slick({
     dots: true,
