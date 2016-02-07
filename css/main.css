@@ -28,7 +28,9 @@
       color: #90FF30;
       font-size: 150%;
    }
-
+.highlight-text {
+  color: black;
+}
 
    .dropdown-menu {
      background-image: linear-gradient(to bottom, #3C3C3C 0px, #222 100%);
@@ -103,9 +105,52 @@
    /*
    *  MISC
    */
-   .xtra-margin {
-     margin-top: 50px;
-     margin-bottom: 50px;
+<<<<<<< HEAD
+   .month {
+	font: 300 14px/20px "Open Sans",Arial,sans-serif;
+	margin-top: 4px;
+	display: block;
+	text-transform: uppercase;
+
+}
+.jumbotron p {
+  margin-top: 10px;
+}
+.jumbotron box {
+  margin-right: 10px;
+}
+.jumbotron a {
+  color: white;
+}
+   .day {
+	font: 300 60px/60px "Open Sans",Arial,sans-serif;
+	margin-top: -7px;
+	display: block;
+}
+   .date-section {
+	position: relative;
+	width: 93px;
+	border-right: 1px solid #FFF;
+	float: left;
+	text-align: left;
+	margin-top: 39px;
+	color: #FFF;
+	text-transform: uppercase;
+	margin-right: 20px;
+   }
+   .font-upcomingevents {
+     font-size: 50px;
+     color: black;
+     font-weight: normal;
+   }
+   .font-events {
+     font-size: 15px;
+   }
+   .faded-background {
+     padding: 15px;
+     background: rgba(0, 0, 0, 0.6);
+     color: white;
+     font-size: 14px;
    }
 
    .slideShow {
@@ -145,9 +190,4 @@
   h3 {
 	margin-top: 34px;
 	text-transform: uppercase;
-}
-.wrapper {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
 }
