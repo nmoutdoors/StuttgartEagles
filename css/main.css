@@ -63,6 +63,7 @@
    *  JUMBOTRON
    */
    .jumbotron {
+     padding-bottom: 10px;
      background-color:inherit;
      color: white; !important;
    }
@@ -167,7 +168,9 @@
    .wrapper {
   	position: relative;
   	overflow: hidden;
+    max-height: 100%;
   	width: 100%;
+    margin-bottom: 10px;
   }
   .pad1 {
 	  padding-bottom: 37px;
@@ -191,3 +194,6 @@
 	margin-top: 34px;
 	text-transform: uppercase;
 }
+  .spacer {
+    margin-top: 50px;
+  }
