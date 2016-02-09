@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+
+
   $(".img-thumbnail").click(function(){
     $("#imagepreview").attr("src",$(this).attr("src").replace("-min", ""))
     $('.modal-body',this).css({width:'auto',height:'auto', 'max-height':'100%'});
@@ -76,6 +78,6 @@ $("#box32").addClass("animated fadeInRight");
 $("#box32-title").text("Photo Gallery");
 $("#box32-body").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum magna venenatis purus porta, sed laoreet enim ullamcorper.");
 
-
+  $(".thumb").thumbs();
 
 });
